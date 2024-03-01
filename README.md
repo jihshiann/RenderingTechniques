@@ -6,8 +6,7 @@ Assign01-Image Encryption by 2D EAT and RP:
 轉換，再把各像素值依 RP 演算法進行調整。
 以及使用 RRP 演算法、逆 EAT 矩陣來還原圖像。
 
-Assign02-Image Encryption Using Enhanced Two-dimensional Sine Logistic 
-Modulation (2D-SLM):
+Assign02-Image Encryption by 2D EAT and RP Modulation (2D-SLM):
 將圖片完成作業一的處理後，再進行 pixel diffusion 以及 Pixel scrambling 
 using exclusive OR，並記錄 secret keys 參數。
 最後再解密以及量測 MSE 是否等於 0。
@@ -28,7 +27,7 @@ Assign06-General Weighted Modulus Data Hiding:
 讀取 PA table 參數檔，將這些參數應用 GWM 演算法把(掩護)影像嵌入 6、35、
 87 進制秘密訊息，產生(偽裝)影像。
 
-Assign07- General Weighted Modulus Reversible Data Hiding Algorithm:
+Assign07-General Weighted Modulus Reversible Data Hiding Algorithm:
 以 GWMRDH 演算法對單張原始灰階影像嵌入秘密訊息，產生三張嵌密灰階影像，
 再以相同演算法對三張嵌密灰階影像提取訊息，恢復原始單張灰階影像。
 其中需防止 pixel overflow/underlow，最後計算 MSE 確認差異程度。
